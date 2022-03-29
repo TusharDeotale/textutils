@@ -58,8 +58,8 @@ function App() {
         <TextForm heading="Enter the text to analyze." mode={mode} showAlert={showAlert} />
       </div>
      
-      <a id="about"></a>
-      <About mode={mode}/>
+      {/* <a id="about"></a>
+      <About mode={mode}/> */}
     </>
   );
 }

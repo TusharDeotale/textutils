@@ -19,7 +19,7 @@ export default function Navbar(props) {
                         </li>
                         <li className="nav-item">
                             {/* <Link className="nav-link" to="/about">{props.aboutText}</Link> */}
-                            <a className="nav-link" href="#about">{props.aboutText}</a>
+                            <a className="nav-link" href="#">{props.aboutText}</a>
                         </li>
                     </ul>
                     {/* toggle Switch */}
